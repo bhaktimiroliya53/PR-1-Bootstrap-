@@ -1,0 +1,382 @@
+//header
+.banner {
+	.navbar {
+		padding: 0;
+		background-color: transparent !important;
+		border-bottom: 1px double white;
+		z-index: 999999999;
+	}
+
+	.navbar-nav {
+		border-left: 1px solid white;
+		border-right: 1px solid white;
+	}
+
+	.dropdown-item:hover {
+		background-color: transparent;
+	}
+
+	.collapse {
+		ul {
+			.home {
+				.dropdown-1 {
+					background-color: black;
+					max-width: 1000px;
+					height: 400px;
+					padding: 20px;
+					top: 22px;
+					left: -70px;
+					opacity: 0;
+					z-index: 22;
+					transition: all 0.5s;
+				}
+			}
+
+			.home:hover {
+				.dropdown-1 {
+					opacity: 1;
+					top: 45px;
+				}
+			}
+
+			.pages {
+				.dropdown-1 {
+					background-color: black;
+					width: 900px;
+					height: 350px;
+					padding: 20px;
+					top: 22px;
+					left: -70px;
+					opacity: 0;
+					z-index: 22;
+					transition: all 0.5s;
+				}
+			}
+
+			.pages:hover {
+				.dropdown-1 {
+					opacity: 1;
+					top: 45px;
+				}
+			}
+
+			.line {
+				position: relative;
+			}
+
+			.line::after {
+				position: absolute;
+				content: '';
+				background-color: white;
+				width: 0%;
+				height: 2px;
+				transition: all 0.5s;
+			}
+
+			.line:hover::after {
+				width: 100%;
+				left: 0;
+				right: 100%;
+				transform-origin: right;
+			}
+		}
+	}
+
+	.slider {
+		padding-top: 200px;
+		padding-left: 100px;
+
+		.slider-content {
+			h1 {
+				font-size: 80px;
+				padding: 10px 0;
+			}
+
+			p {
+				font-size: 18px;
+			}
+
+			.slide-btn {
+				border: 2px solid white;
+				background-color: transparent;
+				color: white;
+				margin: 20px 0;
+			}
+		}
+	}
+}
+
+.banner::before {
+	position: absolute;
+	content: '';
+	background-color: rgba(black, 0.3);
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+
+.banner2 {
+	position: relative;
+	background-image: url(../img/bg-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 140vh;
+}
+
+.banner1 {
+	position: relative;
+	background-image: url(../img/bg-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 140vh;
+}
+
+// about-us
+
+.bg-img {
+	background-image: url('../img/bg-img-1.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	z-index: 9999;
+}
+
+.about-title {
+	span {
+		font-size: 50px;
+	}
+
+	h2 {
+		font-size: 80px;
+	}
+
+	img {
+		top: 0;
+		right: 0;
+	}
+}
+
+.about-img {
+	.hover {
+		h3 {
+			font-size: 60px;
+			bottom: -3%;
+			left: 20%;
+		}
+	}
+}
+
+.about-menu {
+	padding: 150px 50px;
+
+	h4 {
+		font-size: 30px;
+		margin-left: 100px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+}
+
+// menu
+
+.bg-img-1 {
+	background-image: url('../img/img-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.9;
+}
+
+.menu-img {
+	.img {
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+	}
+
+	.img-1 {
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+	}
+}
+
+.menu {
+	position: relative;
+	z-index: 999999;
+
+	span {
+		font-size: 50px;
+		opacity: 1;
+	}
+
+	h2 {
+		font-size: 60px;
+		opacity: 1;
+	}
+}
+
+// blogs
+
+.blog {
+	height: 700px;
+
+
+	.blog-img {
+		background-image: url(../img/img-4.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+
+		.blog-imgs {
+			border: 1px solid white;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+
+.blog-img-1 {
+	background-image: url(../img/img-5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+
+	.blog-imgs {
+		border: 1px solid white;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.blog-img-2 {
+	background-image: url(../img/img-6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+
+	.blog-imgs {
+		border: 1px solid white;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.blog-content {
+	bottom: -19%;
+	left: 10%;
+	transition: all 0.5s;
+	h5 {
+		font-size: 35px;
+		color: white;
+	}
+}
+
+}
+.blog:hover .blog-content{
+	bottom:15%;
+}
+// COFFE-SHARED
+
+.imag {
+	.img {
+		left: -70px;
+		top: 70px;
+	}
+}
+
+.imag-1 {
+	img {
+		left: -140px;
+		bottom: -160px;
+	}
+}
+
+.coffee-content {
+	h2 {
+		font-size: 45px;
+	}
+
+	img {
+		filter: brightness(0%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+	}
+
+	p {
+		background-color: black;
+		color: white;
+		letter-spacing: 4px;
+	}
+}
+
+.box {
+	background-color: black;
+	margin-top: 100px;
+	width: 100%;
+	//height: 60%;
+
+	h3 {
+		font-size: 25px;
+	}
+
+	.span {
+		border: 1px solid #C7A17A;
+		transition: all 0.5s;
+	}
+
+	.span:hover {
+		background-color: #C7A17A;
+		color: white;
+	}
+}
+
+// our shop
+
+.bg-img-2 {
+	background-image: url('../img/portfilo-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.shop-content {
+	h5 {
+		font-size: 30px;
+	}
+
+	span {
+		font-size: 18px;
+	}
+}
+
+// history
+
+.history-img {
+	.since {
+		top: -25%;
+		left: -12%;
+	}
+}
+
+// footer
+
+.bg-black {
+	background-color: black;
+}
+
+.content {
+	h5 {
+		font-size: 16px;
+	}
+}
+
+.icon {
+	i {
+		padding-left: 20px;
+	}
+}
